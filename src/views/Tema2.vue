@@ -7,7 +7,7 @@
         span 2
       h1 Tipos de pruebas y sus características
 
-    p(data-aos="fade-down") En los últimos años se han propuesto algunos principios, con el fin de establecer pautas universales para que los programadores de software las adapten a sus procesos de pruebas. Mera (2016), lista los siguientes principios:
+    p(data-aos="fade-down") En los últimos años, se han propuesto algunos principios, con el fin de establecer pautas universales para que los programadores de #[i software] las adapten a sus procesos de pruebas. Mera (2016), lista los siguientes principios:
 
     .row.justify-content-center
       .col-lg-3.my-3.mov
@@ -15,7 +15,7 @@
       .col-lg-9.my-3(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg6")
           div(titulo="Las pruebas muestran la presencia de defectos")
-            p Las pruebas son herramientas que facilitan detectar defectos, no obstante, no garantizan que no hayan defectos ocultos y no es una evidencia que el software esté óptimo. 
+            p Las pruebas son herramientas que facilitan detectar defectos, no obstante, no garantizan que no haya defectos ocultos y no es una evidencia de que el #[i software] esté óptimo. 
           div(titulo="Pruebas tempranas")
             p Encontrar los errores en etapas tempranas, permite un importante ahorro de recursos.     
           div(titulo="No es posible realizar pruebas exhaustivas")
@@ -25,7 +25,7 @@
       .col-lg-9.my-3(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg6")
           div(titulo="Las pruebas dependen del contexto")
-            p Estas dependen del contexto en el cual se ejecutan, por lo cual, se debe dar más énfasis en las que sean para un sistema crítico, como un software financiero, para el cual se requiere realizar más pruebas, en comparación con otras aplicaciones con nivel críticos bajos.     
+            p Estas dependen del contexto en el cual se ejecutan, por lo cual, se debe dar más énfasis en las que sean para un sistema crítico, como un #[i software] financiero, para el cual se requiere realizar más pruebas, en comparación con otras aplicaciones con nivels críticos bajos.     
           div(titulo="Agrupación de defectos")
             p Las pruebas deben agruparse, la mayoría de fallos operativos se enfocan en un número reducido de módulos.  
           div(titulo="La paradoja de los pesticidas")
@@ -53,7 +53,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.2 Pruebas unitarias
 
-    p(data-aos="fade-down").mb-4 Las pruebas unitarias o como también se las conocen, #[i Unit testing], son pequeños test, en los cuales se revisa que el comportamiento de un objeto y su lógica funcionen adecuadamente. Por lo general, se realiza durante la fase de desarrollo de las aplicaciones o software, y es ejecutada por los programadores, aunque también pueden realizarlas los aseguradores de calidad. Las razones por las cuales se desarrollan este tipo de pruebas, son: 
+    p(data-aos="fade-down").mb-4 Las pruebas unitarias o como también se las conocen, #[i Unit testing], son pequeños #[i test], en los cuales se revisa que el comportamiento de un objeto y su lógica funcionen adecuadamente. Por lo general, se realiza durante la fase de desarrollo de las aplicaciones o #[i software], y es ejecutada por los programadores, aunque también pueden realizarlas los aseguradores de calidad. Las razones por las cuales se desarrollan este tipo de pruebas, son: 
     .row.bg7.align-items-center
       .col-lg-12.col-12.px-lg-5.px-4.pb-4 
         .row.justify-content-center.align-items-center          
@@ -179,7 +179,7 @@
                     li 
                       .lista-ol--cuadro__vineta
                         span 3
-                      span.text-white Corregir los bugs identificados en las pruebas antes de continuar.
+                      span.text-white Corregir los #[i bugs] identificados en las pruebas antes de continuar.
                     li.mb-0 
                       .lista-ol--cuadro__vineta
                         span 4
@@ -191,7 +191,7 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.3 Pruebas de integración
 
-    p(data-aos="fade-down") De acuerdo con Mera (2016), estas pruebas son las encargadas de verificar el óptimo acople entre los componentes y probar las interfaces entre los módulos, como el sistema de archivos en integración con el hardware y el componente de validación de usuario con el sistema operativo.
+    p(data-aos="fade-down") De acuerdo con Mera (2016), estas pruebas son las encargadas de verificar el óptimo acople entre los componentes y probar las interfaces entre los módulos, como el sistema de archivos en integración con el #[i hardware] y el componente de validación de usuario con el sistema operativo.
 
     h5.t2(data-aos="fade-down") Se deben tener en cuenta los objetos típicos de prueba, los cuales son:
 
@@ -199,7 +199,7 @@
       .col-lg-6.my-3
         .crd_txt.p-4.brad.h-100
           .row.justify-content-center
-            .col-lg-7
+            .col-lg-7.j
               ol.lista-ol--cuadro.fa-ul.mb-0
                 li 
                   .lista-ol--cuadro__vineta
@@ -217,17 +217,10 @@
                   .lista-ol--cuadro__vineta
                     span 4
                   span.text-white Infraestructura.
+
                 li 
                   .lista-ol--cuadro__vineta
                     span 5
-                  span.text-white Configuración del sistema.
-                li 
-                  .lista-ol--cuadro__vineta
-                    span 6
-                  span.text-white Infraestructura.
-                li 
-                  .lista-ol--cuadro__vineta
-                    span 7
                   span.text-white Interfaces.
             .col-lg-5.j
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/25.png', alt='')       
@@ -239,7 +232,7 @@
             .col-auto      
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/26.png', alt='')    
 
-    p(data-aos="fade-down") El mismo autor argumenta que en las pruebas de integración se revisan las interfaces entre componentes o subsistemas, para cerciorarse que son llamados cuando se necesite y que los datos o mensajes que se transmiten son los adecuados. #[b.t2 Existen los siguientes tipos de pruebas de integración:] 
+    p(data-aos="fade-down") El mismo autor argumenta que en las pruebas de integración se revisan las interfaces entre componentes o subsistemas, para cerciorarse de que son llamados cuando se necesite y que los datos o mensajes que se transmiten son los adecuados. #[b.t2 Existen los siguientes tipos de pruebas de integración:] 
 
     .row.justify-content-center
       .col-lg-3.my-3.mov
@@ -247,13 +240,13 @@
       .col-lg-9.my-3(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg6")
           div(titulo="Integración incremental")
-            p Se prueba el nuevo componente en conjunto con las que ya se probaron y se incrementa progresivamente con los nuevos componentes que se probarán.           
+            p Se prueba el nuevo componente en conjunto con los que ya se probaron y se incrementa progresivamente con los nuevos componentes que se probarán.           
           div(titulo="Descendente")
             p También conocidas como #[i top down], se realizan siguiendo el flujo de control, ejemplo, desde el GUI o menú principal y los componentes o sistemas se sustituyen por stubs.        
           div(titulo="Ascendente")
             p También conocidas como #[i bottom-up], las pruebas se ejecutan desde la parte inferior del flujo hacia arriba y los componentes o sistemas se sustituyen por controladores.           
           div(titulo="Integración no incremental")
-            p También conocida como Big-bang, se prueba cada componente por separado y al final, se integran todos de una vez, realizando las pruebas pertinentes.    
+            p También conocida como #[i Big-bang], se prueba cada componente por separado y al final, se integran todos de una vez, realizando las pruebas pertinentes.    
           div(titulo="Combinadas")
             p Se desarrolla combinando el enfoque ascendente y descendente, pero hay que realizar una planificación, para que los componentes individuales se encuentren en el medio.     
 
@@ -261,7 +254,7 @@
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.4 Pruebas no funcionales
 
-    p(data-aos="fade-down") En este tipo de pruebas se comprueban los requisitos basados en la operación de un software, no en su funcionalidad. Estas pruebas pueden ayudar a establecer la carga que resiste el producto, si su rendimiento es el adecuado o si es estable a nivel de contacto con el servidor, en otras palabras, nos dice si tienen un bajo desempeño o rendimiento en la producción. #[b.t2 Aquí se encuentran:]     
+    p(data-aos="fade-down") En este tipo de pruebas se comprueban los requisitos basados en la operación de un #[i software], no en su funcionalidad. Estas pruebas pueden ayudar a establecer la carga que resiste el producto, si su rendimiento es el adecuado o si es estable a nivel de contacto con el servidor, en otras palabras, nos dice si tienen un bajo desempeño o rendimiento en la producción. #[b.t2 Aquí se encuentran:]     
 
     .row.bg10.align-items-center.pt-3.mb-4
       .col-lg-12.col-12.px-lg-5.px-4.up
@@ -301,7 +294,7 @@
                   .col-8
                     img.img-a.img-t(src='@/assets/curso/temas/34.png' alt='')
                 h5 Pruebas de configuración 
-                p.mb-0 Aquí se valida qué efectos en el desempeño tienen los cambios de configuración que se pueden aplicar ,como en diferentes hardware, software, versiones y navegadores.        
+                p.mb-0 Aquí se valida qué efectos en el desempeño tienen los cambios de configuración que se pueden aplicar, como en diferentes #[i hardware], #[i software], versiones y navegadores.        
               .tarjeta.bgcard.ts.h-100.p-4
                 .row.justify-content-center.mb-3
                   .col-8
@@ -336,9 +329,9 @@
           div(titulo="Identificar y localizar problemas de rendimiento")
             p Es permitir encontrar un fallo en el rendimiento, y también ayudar a localizar en qué parte está ese problema de rendimiento, para poder solucionarlo. 
           div(titulo="Verificar el cumplimiento de los SLA ")
-            p SLA - Acuerdos de Nivel de Servicio. Se utiliza para medir los tiempos de respuesta del software en condiciones y tiempos específicos. 
+            p SLA - Acuerdos de Nivel de Servicio. Se utiliza para medir los tiempos de respuesta del #[i software] en condiciones y tiempos específicos. 
           div(titulo="Localizar cuellos de botella")
-            p Ayudar a detallar en qué lugar se generan estos cuellos de botella, si se debe a problemas de hardware como CPU, memoria, o es el ancho de banda.  
+            p Ayudar a detallar en qué lugar se generan estos cuellos de botella, si se debe a problemas de #[i hardware] como CPU, memoria, o es el ancho de banda.  
 
     Separador 
     #t_2_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -362,10 +355,10 @@
                 | Verifica que la seguridad y la arquitectura sean las adecuadas.
               li 
                 i.fas.fa-code.color1
-                | Asegura que el comportamiento del software y de todas sus funciones sea el esperado.
+                span Asegura que el comportamiento del #[i software] y de todas sus funciones sea el esperado.
               li 
                 i.fas.fa-code.color1
-                | Se asegura que el software o aplicación está libre de errores. 
+                span Se asegura que el #[i software] o aplicación esté libre de errores. 
         
           .col-lg-5
             img.img-a.img-t(src='@/assets/curso/temas/40.png', alt='')   
@@ -379,16 +372,17 @@
             ul.lista-ul--color.fa-ul.mb-0.ms-0
               li 
                 i.fas.fa-code.color1
-                | Optimiza las funcionalidades y la calidad del producto.
+                | Simplifica la integración y permite una buena documentación.
               li 
                 i.fas.fa-code.color1
-                | Verifica que la seguridad y la arquitectura sean las adecuadas.
+                | Funciona con el proceso de desarrollo ágil.
               li 
                 i.fas.fa-code.color1
-                | Asegura que el comportamiento del software y de todas sus funciones sea el esperado.
+                | Detección temprana de errores en sus funcionalidades, lo que minimiza tiempo y costos.
               li 
                 i.fas.fa-code.color1
-                | Se asegura que el software o aplicación está libre de errores. 
+                | Optimiza la efectividad del código.
+
         
           .col-lg-5
             img.img-a.img-t(src='@/assets/curso/temas/41.png', alt='')  
@@ -408,10 +402,10 @@
                 | Mejora la calidad del código.
               li 
                 i.fas.fa-code.color1
-                | Garantiza que las funciones del software serán confiables y estables entres sus módulos.
+                span Garantiza que las funciones del #[i software] serán confiables y estables entre sus módulos.
               li 
                 i.fas.fa-code.color1
-                | Garantiza que todos los módulos del software estén correctamente integrados y funcionen en conjunto como se necesita. 
+                span Garantiza que todos los módulos del #[i software] estén correctamente integrados y funcionen en conjunto como se necesita. 
         
           .col-lg-5
             img.img-a.img-t(src='@/assets/curso/temas/42.png', alt='')  
@@ -425,7 +419,7 @@
             ul.lista-ul--color.fa-ul.mb-0.ms-0
               li 
                 i.fas.fa-code.color1
-                | Mejora las características del software o aplicación, perfeccionando el sistema.
+                span Mejora las características del #[i software] o aplicación, perfeccionando el sistema.
               li 
                 i.fas.fa-code.color1
                 | Identifica errores que no se detectan en las pruebas funcionales.
@@ -434,7 +428,7 @@
                 | Localiza los cuellos de botella para solucionarlos y optimizar su rendimiento.
               li 
                 i.fas.fa-code.color1
-                | Valora la escalabilidad y velocidad de la aplicación o website. 
+                span Valora la escalabilidad y velocidad de la aplicación o #[i website]. 
         
           .col-lg-5
             img.img-a.img-t(src='@/assets/curso/temas/43.png', alt='')                                   
@@ -446,8 +440,8 @@
         .crd_txt.p-4.brad.h-100(data-aos="fade-left")  
           .row.mb-4
             .col-auto.t3.px-2.m-1.p-1
-              h5.text-center.mb-0 Conclusión de los factores que afectan o determinan la calidad del software
-          p.mb-0.text-white Por lo general, todas las pruebas de software traen beneficios al desarrollador, dependiendo del tipo de la prueba los beneficios pueden ser más altos y enfocados en un fin o propósito específico, dando como resultado una mejor calidad de producto, mejorando su funcionalidad, reduciendo costos, tiempos, recursos humanos y mejorando la experiencia del usuario. Se podría considerar como una desventaja, si se comparan los tipos de prueba, porque puede variar en tiempo, costo, esfuerzo, recursos humanos y exactitud de las pruebas. Sin embargo, la única desventaja de las pruebas de software es no hacerlas, porque el omitir este paso, desencadena una nefasta serie de errores como un producto no funcional y colocarían en tela de juicio la profesionalidad de programador y su equipo de trabajo.
+              h5.text-center.mb-0 Conclusión de los factores que afectan o determinan la calidad del #[i software]
+          p.mb-0.text-white Por lo general, todas las pruebas de #[i software] traen beneficios al desarrollador, dependiendo del tipo de la prueba los beneficios pueden ser más altos y enfocados en un fin o propósito específico, dando como resultado una mejor calidad de producto, mejorando su funcionalidad, reduciendo costos, tiempos, recursos humanos y mejorando la experiencia del usuario. Se podría considerar como una desventaja, si se comparan los tipos de prueba, porque puede variar en tiempo, costo, esfuerzo, recursos humanos y exactitud de las pruebas. Sin embargo, la única desventaja de las pruebas de #[i software] es no hacerlas, porque el omitir este paso, desencadena una nefasta serie de errores como un producto no funcional y colocarían en tela de juicio la profesionalidad del programador y su equipo de trabajo.
 </template>
 
 <script>

@@ -25,10 +25,10 @@
                     .col.my-3
                       p(data-aos="fade-down") Como parte fundamental, son los sistemas de información, que se desarrollan para optimizar el cambio y almacenamiento de esta información.
 
-                      p(data-aos="fade-down").mb-0 Sanz (2005), afirma que las pruebas de software son parte fundamental en el desarrollo de los sistemas de información, debido a que son el conjunto de procesos encaminados en encontrar posibles fallos de funcionamiento, usabilidad o configuración de un programa o aplicación                 
+                      p(data-aos="fade-down").mb-0 Sanz (2005), afirma que las pruebas de #[i software] son parte fundamental en el desarrollo de los sistemas de información, debido a que son el conjunto de procesos encaminados a encontrar posibles fallos de funcionamiento, usabilidad o configuración de un programa o aplicación                 
                       
                       
-                p(data-aos="fade-down") Las pruebas de software, también conocidas como software testing, son la actividad de control de calidad más realizada en los proyectos de desarrollo o mantenimiento de software. En ellas se encuentran errores como los bugs, que a simple vista son insignificantes, pero pueden ser trágicos en los procesos que el programa desarrolla
+                p(data-aos="fade-down") Las pruebas de #[i software], también conocidas como #[i software testing], son la actividad de control de calidad más realizada en los proyectos de desarrollo o mantenimiento de #[i software]. En ellas se encuentran errores como los #[i bugs], que a simple vista son insignificantes, pero pueden ser trágicos en los procesos que el programa desarrolla
 
                 .row
                   .col-auto.bg3.px-2.m-1.p-1(data-aos="flip-down")
