@@ -25,7 +25,7 @@
       .col-lg-9.my-3(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg6")
           div(titulo="Las pruebas dependen del contexto")
-            p Estas dependen del contexto en el cual se ejecutan, por lo cual, se debe dar más énfasis en las que sean para un sistema crítico, como un #[i software] financiero, para el cual se requiere realizar más pruebas, en comparación con otras aplicaciones con nivels críticos bajos.     
+            p Estas dependen del contexto en el cual se ejecutan, por lo cual, se debe dar más énfasis en las que sean para un sistema crítico, como un #[i software] financiero, para el cual se requiere realizar más pruebas, en comparación con otras aplicaciones con niveles críticos bajos.     
           div(titulo="Agrupación de defectos")
             p Las pruebas deben agruparse, la mayoría de fallos operativos se enfocan en un número reducido de módulos.  
           div(titulo="La paradoja de los pesticidas")
