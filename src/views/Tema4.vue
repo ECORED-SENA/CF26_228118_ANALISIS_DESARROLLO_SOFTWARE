@@ -12,7 +12,7 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/53.png', alt='')        
 
       .col-lg-8.my-3
-        p(data-aos="fade-down") El desarrollo de #[i software] dirigido por pruebas, es una técnica de programación en la cual las pruebas que normalmente son las unitarias, se escriben primero y luego se escribe el código que pase las pruebas. Con esta práctica se consigue, entre otras cosas, un código más robusto, más seguro, más mantenible y una mayor rapidez en el desarrollo.   
+        p(data-aos="fade-down") El desarrollo de #[i software] dirigido por pruebas, es una técnica de programación en la cual las pruebas, que normalmente son las unitarias, se escriben primero y luego se escribe el código que pase las pruebas. Con esta práctica se consigue, entre otras cosas, un código más robusto, más seguro, más mantenible y una mayor rapidez en el desarrollo.   
         .bg12.brad.px-4.mb-4(data-aos="fade-up")
           .row.justify-content-center.align-items-center(data-aos="flip-down")           
             .col-lg-auto.my-3
@@ -148,7 +148,7 @@
           div(titulo="Optimización")
             p Otro de los beneficios es la optimización y mejora en el rendimiento del código, dado que se hace énfasis en escribir solamente el código necesario para la resolución de la necesidad.     
 
-          div(titulo="Implementación")
+          div(titulo="Proceso")
             p El proceso de realizar pruebas por cada nueva funcionalidad o requisito, facilita el proceso de desarrollo de forma modular, lo que permite la escalabilidad y el futuro mantenimiento del producto #[i software].
 
     .row.justify-content-start.mb-4

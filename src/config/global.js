@@ -146,7 +146,7 @@ export default {
     },
     {
       tema: 'Tipos de pruebas y sus características',
-      referencia: 'IBM. (2021). <i>Pruebas funcionales</i>. ',
+      referencia: 'IBM. (2021). <i>Pruebas de rendimiento</i>. ',
       tipo: 'Página web',
       link:
         'https://www.ibm.com/docs/es/rtw/9.0.0?topic=phases-performance-testing',
@@ -240,7 +240,7 @@ export default {
           nombre: 'Carlos Hernán Muñoz',
           cargo: 'Experto Temático',
           centro:
-            'entro de Teleinformática y Producción Industrial - Regional Cauca',
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
@@ -263,7 +263,7 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Edgar Mauricio Cortes',
+          nombre: 'Edgar Mauricio Cortes Garcia',
           cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

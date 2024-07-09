@@ -53,7 +53,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.2 Pruebas unitarias
 
-    p(data-aos="fade-down").mb-4 Las pruebas unitarias o como también se las conocen, #[i Unit testing], son pequeños #[i test], en los cuales se revisa que el comportamiento de un objeto y su lógica funcionen adecuadamente. Por lo general, se realiza durante la fase de desarrollo de las aplicaciones o #[i software], y es ejecutada por los programadores, aunque también pueden realizarlas los aseguradores de calidad. Las razones por las cuales se desarrollan este tipo de pruebas, son: 
+    p(data-aos="fade-down").mb-4 Las pruebas unitarias, o como también se las conocen, #[i Unit testing], son pequeños #[i test], en los cuales se revisa que el comportamiento de un objeto y su lógica funcionen adecuadamente. Por lo general, se realiza durante la fase de desarrollo de las aplicaciones o #[i software], y es ejecutada por los programadores, aunque también pueden realizarlas los aseguradores de calidad. Las razones por las cuales se desarrollan este tipo de pruebas, son: 
     .row.bg7.align-items-center
       .col-lg-12.col-12.px-lg-5.px-4.pb-4 
         .row.justify-content-center.align-items-center          
