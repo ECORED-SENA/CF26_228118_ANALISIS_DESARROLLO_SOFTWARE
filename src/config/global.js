@@ -144,13 +144,6 @@ export default {
       link:
         'https://www.ibm.com/docs/es/rtw/9.1.0?topic=SSBLQQ_9.1.0/com.ibm.rational.test.ft.doc/topics/Getting_Started_With_Ivory.html',
     },
-    {
-      tema: 'Tipos de pruebas y sus características',
-      referencia: 'IBM. (2021). <i>Pruebas de rendimiento</i>. ',
-      tipo: 'Página web',
-      link:
-        'https://www.ibm.com/docs/es/rtw/9.0.0?topic=phases-performance-testing',
-    },
   ],
   glosario: [
     {
